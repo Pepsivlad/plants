@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="./assets/js/burgerMenu.js"></script>
+  <script src="./assets/js/blurService.js"></script>
+  <script src="./assets/js/pricesAccordion.js"></script>
+  <script src="./assets/js/contactsMenu.js"></script>
+  <title>Plants</title>
+  <link rel="shortcut icon" href="./assets/svg/logo_vector.svg" type="image/x-icon">
+</head>
+
+<body>
+  <div class="green-bg">
+    <header class="header container">
+      <div class="logo">
+        <img src="./assets/svg/logo_vector.svg" alt="logo" class="logo-svg">
+        <span class="logo-text">Plants</span>
+      </div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link" id="nav-link-home">Home</a></li>
+          <li class="nav-item"><a href="#about-us" class="nav-link">About us</a></li>
+          <li class="nav-item"><a href="#service" class="nav-link">Service</a></li>
+          <li class="nav-item"><a href="#price" class="nav-link">Price</a></li>
+          <li class="nav-item"><a href="#contacts" class="nav-link lesser-margin">Contacts</a></li>
+        </ul>
+        <div class="nav-burger">
+          <img src="./assets/svg/burger.svg" alt="" class="nav-burger-img">
+        </div>
+        <div class="nav-burger-list">
+          <ul class="burger-list">
+            <li class="burger-item"><a href="#home" class="nav-link burger-link">Home |</a></li>
+            <li class="burger-item"><a href="#about-us" class="nav-link burger-link">About us |</a></li>
+            <li class="burger-item"><a href="#service" class="nav-link burger-link">Service |</a></li>
+            <li class="burger-item"><a href="#price" class="nav-link burger-link">Price |</a></li>
+            <li class="burger-item"><a href="#contacts" class="nav-link burger-link">Contacts</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  </div>
+  <main class="main">
+    <div class="green-bg">
+      <div class="container">
+        <section class="section" id="home">
+          <img src="./assets/jpg/leafstemp.jpg" alt="" class="leaf-container">
+          <div class="home-text">
+            <h1 class="home-h1">We grow <span class="home-h1-span">plants</span> and give you oxygen</h1>
+            <p class="home-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <button class="home-button">Learn more</button>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="container">
+      <section class="section" id="about-us">
+        <div class="about-us-text">
+          <div class="about-h2-container">
+            <h2 class="about-us-h2">We are <span class="about-us-span">professional experienced</span> gardeners</h2>
+          </div>
+          <p class="about-us-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+        </div>
+        <img src="./assets/jpg/houseplant-2.jpg" alt="" class="about-us-plant">
+      </section>
+    </div>
+    <div class="green-bg">
+      <div class="container">
+        <section class="section" id="service">
+          <div class="service-text-buttons">
+            <h2 class="service-h2">Service and our projects</h2>
+            <div class="service-buttons">
+              <button class="service-button gardens">Gardens</button>
+              <button class="service-button lawn">Lawn</button>
+              <button class="service-button planting">Planting</button>
+            </div>
+          </div>
+          <div class="service-pictures">
+            <figure class="service-figure">
+              <picture class="service-picture unblur">
+                <source media="(max-width: 768px)" srcset="./assets/png/tablet-service/1.png" class="source">
+                <img src="./assets/jpg/service/1.jpg" alt="" class="service-img">
+              </picture>
+              <figcaption class="service-figcaption unblur">
+                <p class="service-img-title">Garden care</p>
+                <p class="service-img-text">Lorem Ipsum has been the industry</p>  
+              </figcaption>
+            </figure>
+            <figure class="service-figure">
+              <picture class="service-picture unblur">
+                <source media="(max-width: 768px)" srcset="./assets/png/tablet-service/2.png">
+                <img src="./assets/jpg/service/2.jpg" alt="" class="service-img">
+              </picture>
+              <figcaption class="service-figcaption unblur">
+                <p class="service-img-title">Planting</p>
+                <p class="service-img-text">Lorem Ipsum has been the industry</p>  
+              </figcaption>
+            </figure>
+            <figure class="service-figure">
+              <picture class="service-picture unblur">
+                <source media="(max-width: 768px)" srcset="./assets/png/tablet-service/3.png">
+                <img src="./assets/jpg/service/3.jpg" alt="" class="service-img">
+              </picture>
+              <figcaption class="service-figcaption unblur">
+                <p class="service-img-title">Lawn care</p>
+                <p class="service-img-text">Lorem Ipsum has been the industry</p>  
+              </figcaption>
+            </figure>
+            <figure class="service-figure">
+              <picture class="service-picture unblur">
+                <source media="(max-width: 768px)" srcset="./assets/png/tablet-service/4.png">
+                <img src="./assets/jpg/service/4.jpg" alt="" class="service-img">
+              </picture>
+              <figcaption class="service-figcaption unblur">
+                <p class="service-img-title">Planting</p>
+                <p class="service-img-text">Lorem Ipsum has been the industry</p>  
+              </figcaption>
+            </figure>
+            <figure class="service-figure">
+              <picture class="service-picture unblur">
+                <source media="(max-width: 768px)" srcset="./assets/png/tablet-service/5.png">
+                <img src="./assets/jpg/service/5.jpg" alt="" class="service-img">
+              </picture>
+              <figcaption class="service-figcaption unblur">
+                <p class="service-img-title">Garden care</p>
+                <p class="service-img-text">Lorem Ipsum has been the industry</p>  
+              </figcaption>
+            </figure>
+            <figure class="service-figure">
+              <picture class="service-picture unblur">
+                <source media="(max-width: 768px)" srcset="./assets/png/tablet-service/6.png">
+                <img src="./assets/jpg/service/6.jpg" alt="" class="service-img">
+              </picture>
+              <figcaption class="service-figcaption unblur">
+                <p class="service-img-title">Planting</p>
+                <p class="service-img-text">Lorem Ipsum has been the industry</p>  
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="container">
+      <section class="section" id="price">
+        <div class="price-selection">
+          <h2 class="price-selection-h2">Prices</h2>
+          <div class="price-selectors">
+            <div class="price-selectors-rectangle inactive">
+              <div class="price-selectors-inactive">
+                <span class="price-selectors-text">Basics</span>
+                <div class="price-selectors-accordion"></div>
+              </div>
+              <p class="price-hidden-p">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+              <p class="price-hidden-price"><span class="price-hidden-span">$15</span> / per hour</p>
+              <a href="#contacts"><button class="price-hidden-btn">Order</button></a>
+            </div>
+            <div class="price-selectors-rectangle inactive">
+              <div class="price-selectors-inactive">
+                <span class="price-selectors-text">Standard</span>
+                <div class="price-selectors-accordion"></div>
+              </div>
+              <p class="price-hidden-p">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+              <p class="price-hidden-price"><span class="price-hidden-span">$25</span> / per hour</p>
+              <a href="#contacts"><button class="price-hidden-btn">Order</button></a>
+            </div>
+            <div class="price-selectors-rectangle inactive">
+              <div class="price-selectors-inactive">
+                <span class="price-selectors-text">Pro care</span>
+                <div class="price-selectors-accordion"></div>
+              </div>
+              <p class="price-hidden-p">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+              <p class="price-hidden-price"><span class="price-hidden-span">$35</span> / per hour</p>
+              <a href="#contacts"><button class="price-hidden-btn">Order</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="price-contactus">
+          <h3 class="price-contactus-h2">Our best <span class="price-contactus-span">gardeners</span> are ready to help you</h3>
+          <div class="price-contactus-wrapper">
+            <button class="price-button">Contact us</button>
+            <img src="./assets/png/leafs-prices.png" alt="" class="price-contactus-img">
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="green-bg">
+      <div class="container">
+        <section class="section" id="contacts">
+          <img src="./assets/jpg/contact_woman.jpg" alt="" class="contacts-img">
+          <h2 class="contacts-h2">Contact us</h2>
+          <div class="contacts-rectangle-wrapper">
+            <div class="contacts-rectangle inactive">
+              <span class="contacts-rectangle-text">City</span>
+              <div class="contacts-accordion"></div>
+              <div class="contacts-extra-rectangle inactive">
+                <div class="text-hover">
+                  <p class="extra-rectangle-text">Canandaigua, NY</p>
+                  <hr class="extra-rectangle-hr">
+                </div>
+                <div class="text-hover">
+                  <p class="extra-rectangle-text">New York City</p>
+                  <hr class="extra-rectangle-hr">
+                </div>
+                <div class="text-hover">
+                  <p class="extra-rectangle-text">Yonkers, NY</p>
+                  <hr class="extra-rectangle-hr">
+                </div>
+                <div class="text-hover">
+                  <p class="extra-rectangle-text">Sherrill, NY</p>
+                  <hr class="extra-rectangle-hr">
+                </div>
+              </div>
+            </div>
+            <div class="city-card">
+              <div class="city-card-wrapper">
+                <div class="city-card-titles">
+                  <p class="city-card-title">City:</p>
+                  <p class="city-card-title">Phone:</p>
+                  <p class="city-card-title">Office address:</p>
+                </div>
+                <div class="city-card-textes">
+                  <p class="city-card-text city-card-city"></p>
+                  <p class="city-card-text city-card-phone"></p>
+                  <p class="city-card-text city-card-address"></p>
+                </div>
+              </div>
+              <a href="" class="city-card-tel"><button class="city-card-btn">Call us</button></a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+  <div class="container">
+    <footer class="footer">
+      <div class="footer-left">
+        <p class="footer-left-text">©</p>
+        <p class="footer-left-text">2022</p>
+        <a href="https://github.com/Shizopat/" class="footer-left-text footer-link">Shizopat</a>
+      </div>
+      <div class="footer-center">
+        <a href="https://rs.school/js-stage0/" class="footer-center-text footer-link">Rolling Scopes School</a>
+      </div>
+      <div class="footer-right">
+        <ul class="footer-list">
+          <li class="footer-item">
+            <a href="https://instagram.com/rsschool_en/" class="footer-link">
+              <img src="./assets/svg/instagram.svg" alt="" class="footer-right-img no-margin">
+            </a>
+          </li>
+          <li class="footer-item">
+            <a href="https://www.facebook.com/rsschoolEN/" class="footer-link">
+              <img src="./assets/svg/facebook.svg" alt="" class="footer-right-img">
+            </a>
+          </li>
+          <li class="footer-item">
+            <a href="https://twitter.com/rollingscopes?lang=en" class="footer-link">
+              <img src="./assets/svg/twitter.svg" alt="" class="footer-right-img">
+            </a>
+          </li>
+          <li class="footer-item">
+            <a href="index.html" class="footer-link">
+              <img src="./assets/svg/pinterest.svg" alt="" class="footer-right-img">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+</html>
